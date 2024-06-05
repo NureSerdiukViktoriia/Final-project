@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.chat-arrow img {
+  width: 40px;
+}
+
+.chat-title p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+body {
+  background-color: #b9b9b9;
+  font-family: Roboto;
+}
+#msg_box {
+  max-width: 600px;
+  height: 450px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: white;
+  overflow: auto;
+  margin: 10px auto 0;
+}
+#msg_box p {
+  opacity: 0.5;
+  text-align: center;
+}
+.chat-inf {
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+#msg {
+  width: 500px;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid black;
+}
+#btn {
+  display: inline-block;
+  background-color: #3984f3;
+  height: 30px;
+  width: 130px;
+  line-height: 25px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 0 30px;
+  box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 15px 0 0 20px;
+  cursor: pointer;
+  border: none;
+}
+#btn:hover {
+  background: #3984c4;
+}
+#btn:active {
+  background: #398494;
+}
+.chat-t {
+  font-size: 13px;
+}
+.chat-main {
+  padding: 5px 20px 10px 20px;
+}
